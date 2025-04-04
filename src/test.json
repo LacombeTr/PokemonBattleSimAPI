@@ -1,0 +1,240 @@
+{
+  <ref
+  *1>
+  WebSocket {
+  _events: [
+    Object
+    :
+    null
+    prototype
+  ] {
+  close: [
+    Array
+  ],
+  message: [
+    Function
+    (anonymous)
+  ]
+},
+_eventsCount: 2,
+_maxListeners: undefined,
+_binaryType: 'nodebuffer',
+_closeCode: 1006,
+_closeFrameReceived: false,
+_closeFrameSent: false,
+_closeMessage: <Buffer >,
+_closeTimer: null,
+_errorEmitted: false,
+_extensions: {},
+_paused: false,
+_protocol: '',
+_readyState: 1,
+_receiver: Receiver {
+_events: [Object],
+_writableState: [WritableState],
+_maxListeners: undefined,
+_allowSynchronousEvents: true,
+_binaryType: 'nodebuffer',
+_extensions: {
+},
+_isServer: true,
+_maxPayload: 104857600,
+_skipUTF8Validation: false,
+_bufferedBytes: 0,
+_buffers: [],
+_compressed: false,
+_payloadLength: 14,
+_mask: <Buffer f3 c9 11 a9>,
+_fragmented: 0,
+_masked: true,
+_fin: true,
+_opcode: 1,
+_totalPayloadLength: 0,
+_messageLength: 0,
+_fragments: [],
+_errored: false,
+_loop: false,
+_state: 0,
+_eventsCount: 6,
+[Symbol(shapeMode)]: true,
+[Symbol(kCapture)]: false,
+[Symbol(websocket)]: [Circular *1]
+},
+_sender: Sender {
+_extensions: {},
+_socket: [Socket],
+_firstFragment: true,
+_compress: false,
+_bufferedBytes: 0,
+_queue: [],
+_state: 0,
+onerror: [Function: senderOnError],
+[Symbol(websocket)]: [Circular *1]
+},
+_socket: Socket {
+connecting: false,
+_hadError: false,
+_parent: null,
+_host: null,
+_closeAfterHandlingError: false,
+_events: [Object],
+_readableState: [ReadableState],
+_writableState: [WritableState],
+allowHalfOpen: true,
+_maxListeners: undefined,
+_eventsCount: 4,
+_sockname: null,
+_pendingData: null,
+_pendingEncoding: '',
+server: [Server],
+_server: [Server],
+parser: null,
+on: [Function (anonymous)],
+addListener: [Function (anonymous)],
+prependListener: [Function: prependListener],
+setEncoding: [Function: socketSetEncoding],
+_paused: false,
+timeout: 0,
+[Symbol(async_id_symbol)]: 8,
+[Symbol(kHandle)]: [TCP],
+[Symbol(lastWriteQueueSize)]: 0,
+[Symbol(timeout)]: null,
+[Symbol(kBuffer)]: null,
+[Symbol(kBufferCb)]: null,
+[Symbol(kBufferGen)]: null,
+[Symbol(shapeMode)]: true,
+[Symbol(kCapture)]: false,
+[Symbol(kSetNoDelay)]: true,
+[Symbol(kSetKeepAlive)]: false,
+[Symbol(kSetKeepAliveInitialDelay)]: 0,
+[Symbol(kBytesRead)]: 0,
+[Symbol(kBytesWritten)]: 0,
+[Symbol(websocket)]: [Circular *1]
+},
+_autoPong: true,
+_isServer: true,
+[Symbol(shapeMode)]: false,
+[Symbol(kCapture)]: false
+},
+
+<ref *2> WebSocket {
+  _events: [Object: null prototype] {
+    close: [Array],
+    message: [Function (anonymous)]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  _binaryType: 'nodebuffer',
+  _closeCode: 1006,
+  _closeFrameReceived: false,
+  _closeFrameSent: false,
+  _closeMessage: <Buffer >,
+  _closeTimer: null,
+  _errorEmitted: false,
+  _extensions: {},
+  _paused: false,
+  _protocol: '',
+  _readyState: 1,
+  _receiver: Receiver {
+    _events: [Object],
+    _writableState: [WritableState],
+    _maxListeners: undefined,
+    _allowSynchronousEvents: true,
+    _binaryType: 'nodebuffer',
+    _extensions: {},
+    _isServer: true,
+    _maxPayload: 104857600,
+    _skipUTF8Validation: false,
+    _bufferedBytes: 0,
+    _buffers: [],
+    _compressed: false,
+    _payloadLength: 2,
+    _mask: <Buffer e3 f4 c2 84>,
+    _fragmented: 0,
+    _masked: true,
+    _fin: true,
+    _opcode: 1,
+    _totalPayloadLength: 0,
+    _messageLength: 0,
+    _fragments: [],
+    _errored: false,
+    _loop: true,
+    _state: 4,
+    _eventsCount: 6,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false,
+    [Symbol(websocket)]: [Circular *2]
+  },
+  _sender: Sender {
+    _extensions: {},
+    _socket: [Socket],
+    _firstFragment: true,
+    _compress: false,
+    _bufferedBytes: 0,
+    _queue: [],
+    _state: 0,
+    onerror: [Function: senderOnError],
+    [Symbol(websocket)]: [Circular *2]
+  },
+  _socket: Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _closeAfterHandlingError: false,
+    _events: [Object],
+    _readableState: [ReadableState],
+    _writableState: [WritableState],
+    allowHalfOpen: true,
+    _maxListeners: undefined,
+    _eventsCount: 4,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: [Server],
+    _server: [Server],
+    parser: null,
+    on: [Function (anonymous)],
+    addListener: [Function (anonymous)],
+    prependListener: [Function: prependListener],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    timeout: 0,
+    [Symbol(async_id_symbol)]: 14,
+    [Symbol(kHandle)]: [TCP],
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false,
+    [Symbol(kSetNoDelay)]: true,
+    [Symbol(kSetKeepAlive)]: false,
+    [Symbol(kSetKeepAliveInitialDelay)]: 0,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(websocket)]: [Circular *2]
+  },
+  _autoPong: true,
+  _isServer: true,
+  [Symbol(shapeMode)]: false,
+  [Symbol(kCapture)]: false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
